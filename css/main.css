@@ -24,14 +24,17 @@ body { background-color:#f26c4f;
        height: 100%; margin: 0px;
 }
 
-
+.logo{
+   text-align:center; 
+   display:inline;
+}
 .block{
    font-family: 'hiruko';
   display: block;
   font-size:10em;
   color:#fff; 
-    text-align:center;
-    line-height:80%;
+  text-align:center;
+  line-height:80%;
     
 }
 
