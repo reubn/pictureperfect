@@ -4,20 +4,36 @@
    Author's custom styles
    ========================================================================== */
 
+/*FONTS*/
 
 
-body{
-background-image:url(../img/IMG_2801.JPG);
-background-size:cover;
-filter: blur(5px);
-// Browser Specific
--webkit-filter: blur(5px);
--moz-filter: blur(5px);
--o-filter: blur(5px);
--ms-filter: blur(5px);
+@font-face {
+    font-family: 'hiruko';
+    src: url('../fonts/hiruko.eot');
+    src: url('../fonts/hiruko.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hiruko.woff') format('woff'),
+         url('../fonts/hiruko.ttf') format('truetype'),
+         url('../fonts/hiruko.svg#hirukoblack_alternate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html { height: 100% 
+}
+body { background-color:#f26c4f;
+       height: 100%; margin: 0px;
 }
 
 
+.block{
+   font-family: 'hiruko';
+  display: block;
+  font-size:10em;
+  color:#fff; 
+    text-align:center;
+    line-height:80%;
+    
+}
 
 
 
