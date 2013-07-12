@@ -64,16 +64,17 @@ body {
 }
 #bg {
     -webkit-transform: translate3d(0, 0, 0);
-       background-image:url(../img/bg.jpg);
-       background-size:110%;
+       background-color:#f26c4f;
        height: 100%; margin: 0px;
        width:100%;
         z-index:2;
     -webkit-transition: all 0.6s ease-in-out;
         position:absolute;
     opacity:1;
+  /*  background-image:url(../img/bg.jpg);
+       background-size:110%;
     -webkit-filter: blur(10px);
-            filter: blur(10px);
+            filter: blur(10px);*/
     
 }
 #googleMap { 
@@ -123,6 +124,16 @@ display:inline;
 .btn-group.open .btn.btn-danger.dropdown-toggle,
 .btn.btn-danger.active {
   background-color: #f26c4f;
+}
+
+.btn.btn-white {
+  background-color: #fefefe;
+  color:#484746;
+}
+.btn.btn-white:hover,
+.btn.btn-white:focus,
+.btn-group:focus .btn.btn-white.dropdown-toggle {
+  background-color: #ececec;
 }
 
 
