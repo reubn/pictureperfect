@@ -39,9 +39,10 @@ body { background-color:#f26c4f;
 }
 
 
-
-
-
+.btn {
+    float:left;
+    display:inline;
+}
 
 
 
