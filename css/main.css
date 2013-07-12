@@ -111,9 +111,22 @@ margin-top:15%;
 display:inline;   
 }
 
+.btn.btn-robor {
+  background-color: #f26c4f;
+}
+.btn.btn-robor:hover,
+.btn.btn-robor:focus,
+.btn-group:focus .btn.btn-robor.dropdown-toggle {
+  background-color: #F1C40F;
+}
+.btn.btn-danger:active,
+.btn-group.open .btn.btn-danger.dropdown-toggle,
+.btn.btn-danger.active {
+  background-color: #f26c4f;
+}
 
 
-
+f26c4f
 
 
 
