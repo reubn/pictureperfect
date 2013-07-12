@@ -18,10 +18,12 @@
     </head>
     <body>
         <div id="bg"></div>
+        <div id="googleMap"></div>
         <div id="over" class="logo centerHorizontal centerVertical"><span class="block">PICTURE</span><span class="block">PERFECT</span>
         <img class="logo" src="img/Map@2x.png"/><input type="button" id="snap" class="btn-large btn-inverse btn" value="Snap">
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAue8HUBWPfP9K6blbupxpEYHCj98VnWi0&sensor=false"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/midway.min.js"></script>
         <script>midway();</script>
@@ -31,7 +33,12 @@
  $('#over').css({"opacity" : "0"})
  setTimeout(function () {
   $('#over').css({"display" : "none"})
- }, 1000);
+ }, 600);
+     
+     $('#bg').css({"opacity" : "0"})
+ setTimeout(function () {
+  $('#bg').css({"display" : "none"})
+ }, 700);
  
 }</script>
         <script src="js/main.js"></script>
