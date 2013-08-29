@@ -13,3 +13,4 @@ var mapProp = {
   overviewMapControl: false
     };
   map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  //Need to work on this
